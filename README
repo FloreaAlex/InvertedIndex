@@ -1,0 +1,16 @@
+Florea Alexandru - Ionut
+313CA
+Tema3 - SD: Inverted Index
+
+	Metoda aleasa de mine pentru implementarea programului este urmatoarea: 
+in nodurile din listele din vector retin cheia ca fiind cuvantul, iar valoarea 
+ca fiind o lista dublu inlantuita sortata. O mentin sortata pentru a putea 
+realiza intersectia rapid cand este nevoie.
+	Pentru redimensionarea hashtable-ului am ales sa imi creez un nou obiect
+al clasei Hashtable si sa redistribui cheile; listele de situri aferente 
+cheilor doar le copii in noile locatii.
+
+	Mentionez ca local imi treceau toate testele, mai putin testul 9 pentru ca
+nu eliberez memoria; insa pe VMchecker testele 6 si 8 imi pica(FAILED, nu 
+TIMEOUT). Am testat outputurile cu diff in toate modurile posibile si sunt
+identice. Sper sa ma lamuriti in legatura cu problema.
